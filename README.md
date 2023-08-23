@@ -35,3 +35,7 @@ Ensure the dev environment is setup and then run:
 ```
 pytest
 ```
+
+## References
+
+-   A lot of the configuration/basic setup is based on [mCoding's](https://mcoding.io) great [video tutorial](https://www.youtube.com/watch?v=DhUpxWjOhME).
