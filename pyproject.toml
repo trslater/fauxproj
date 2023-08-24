@@ -1,5 +1,5 @@
 [project]
-name = "Scalib"
+name = "fauxproj"
 version = "0.1.0"
 description = "A musical scale generation and manipulation library"
 
@@ -12,7 +12,7 @@ dev = [
 ]
 
 [project.scripts]
-scalib = "scalib.cli:run"
+fauxproj = "fauxproj.cli:run"
 
 [build.system]
 requires = ["setuptools>=65.5"]

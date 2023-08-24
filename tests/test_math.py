@@ -1,6 +1,6 @@
 import pytest
 
-from scalib import math
+from fauxproj import math
 
 
 def test_geometric_sequence_n_at_least_0():

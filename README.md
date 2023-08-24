@@ -2,16 +2,18 @@
 
 This is just a place to explore various Python project tools/configurations.
 
+> :warning: This is a fake project **do not install**
+
 ## Installation
 
 ```
-pip install scalib
+pip install fauxproj
 ```
 
 ## Usage
 
 ```
-scalib MESSAGE
+fauxproj MESSAGE
 ```
 
 Prints `MESSAGE` to terminal.

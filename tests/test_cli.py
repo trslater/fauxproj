@@ -1,4 +1,4 @@
-from scalib import cli
+from fauxproj import cli
 
 
 def test_run(monkeypatch, captured_stdout):
