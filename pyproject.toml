@@ -1,7 +1,6 @@
 [project]
 name = "fauxproj"
 version = "0.1.0"
-description = "A musical scale generation and manipulation library"
 
 [project.optional-dependencies]
 dev = [
