@@ -11,10 +11,12 @@ dependencies = ["numpy"]
 
 [project.optional-dependencies]
 dev = [
+    "build",
     "flake8",
     "mypy",
     "pytest",
     "tox",
+    "twine",
 ]
 
 [project.urls]
