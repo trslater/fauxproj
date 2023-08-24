@@ -1,6 +1,13 @@
 [project]
 name = "fauxproj"
 version = "0.1.0"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Tristan Slater", email = "hello@trslater.ca"}
+]
+dependencies = ["numpy"]
 
 [project.optional-dependencies]
 dev = [
@@ -9,6 +16,9 @@ dev = [
     "pytest",
     "tox",
 ]
+
+[project.urls]
+Repository = "https://github.com/trslater/fauxproj.git"
 
 [project.scripts]
 fauxproj = "fauxproj.cli:run"
