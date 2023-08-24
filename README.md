@@ -8,6 +8,14 @@ This is just a place to explore various Python project tools/configurations.
 pip install scalib
 ```
 
+## Usage
+
+```
+scalib MESSAGE
+```
+
+Prints `MESSAGE` to terminal.
+
 ## Development
 
 I recommend using `venv` first:
