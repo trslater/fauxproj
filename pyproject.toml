@@ -1,6 +1,7 @@
 [project]
 name = "fauxproj"
-version = "0.1.0"
+version = "0.2.0"
+description = "This is a fake test project"
 requires-python = ">=3.11"
 readme = "README.md"
 license = {file = "LICENSE"}
