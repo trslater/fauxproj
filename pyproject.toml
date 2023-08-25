@@ -2,7 +2,7 @@
 name = "fauxproj"
 version = "0.2.0"
 description = "This is a fake test project"
-requires-python = ">=3.11"
+requires-python = ">=3.8"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
