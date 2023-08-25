@@ -40,10 +40,16 @@ pip install -e '.[dev]'
 
 ## Testing
 
-Ensure the dev environment is setup and then run:
+To just run tests on local dev environment:
 
 ```
 pytest
+```
+
+For full tests:
+
+```
+tox
 ```
 
 ## Publishing
