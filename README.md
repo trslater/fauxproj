@@ -72,3 +72,4 @@ twine upload -r testpypi dist/*
 ## References
 
 -   A lot of the configuration/basic setup is based on [mCoding's](https://mcoding.io) great [video tutorial](https://www.youtube.com/watch?v=DhUpxWjOhME).
+-   A lot of the publishing knowledge came from [this](https://realpython.com/pypi-publish-python-package/#publish-your-package-to-pypi) [RealPython](https://realpython.com) article.
