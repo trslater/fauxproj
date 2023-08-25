@@ -69,6 +69,12 @@ You can publish to the testing PyPI to make sure everything works how you want i
 twine upload -r testpypi dist/*
 ```
 
+### Building Desktop App
+
+```
+pyinstaller --clean --onefile --name fauxproj cli_wrapper.py
+```
+
 ## References
 
 -   A lot of the configuration/basic setup is based on [mCoding's](https://mcoding.io) great [video tutorial](https://www.youtube.com/watch?v=DhUpxWjOhME).

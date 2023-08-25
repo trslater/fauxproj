@@ -12,7 +12,7 @@ USAGE = textwrap.dedent("""\
 def run():
     if len(sys.argv) < 2:
         print(USAGE)
-        exit(1)
+        sys.exit(1)
 
     try:
         n = float(sys.argv[1])
@@ -21,12 +21,12 @@ def run():
         print("ERROR: N must be a number", file=sys.stderr)
         print()
         print(USAGE)
-        exit(1)
+        sys.exit(1)
 
     if n < 0:
         print("ERROR: N non-negative", file=sys.stderr)
         print()
         print(USAGE)
-        exit(1)
+        sys.exit(1)
 
     print(np.sqrt(n))

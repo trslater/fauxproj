@@ -3,6 +3,9 @@
 build: tox
 	python -m build
 
+bin: tox
+	pyinstaller --clean --onefile --name fauxproj cli_wrapper.py
+
 publish: build
 	twine upload dist/*
 
