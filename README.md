@@ -20,6 +20,8 @@ Prints `MESSAGE` to terminal.
 
 ## Development
 
+### Environment
+
 I recommend using `venv` first:
 
 ```
@@ -38,7 +40,7 @@ You may need to quote `.[dev]` in certain shells:
 pip install -e '.[dev]'
 ```
 
-## Testing
+### Testing
 
 To just run tests on local dev environment:
 
@@ -52,7 +54,7 @@ For full tests:
 tox
 ```
 
-## Publishing
+### Publishing
 
 ```
 python -m build
