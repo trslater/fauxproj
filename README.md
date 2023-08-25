@@ -20,6 +20,8 @@ Prints `MESSAGE` to terminal.
 
 ## Development
 
+If you have make installed, please use included `Makefile` as it streamlines running these operations.
+
 ### Environment
 
 I recommend using `venv` first:
