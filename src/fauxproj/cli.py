@@ -16,7 +16,7 @@ def run():
 
     try:
         n = float(sys.argv[1])
-    
+
     except ValueError:
         print("ERROR: N must be a number", file=sys.stderr)
         print()
