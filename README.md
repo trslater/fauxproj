@@ -46,6 +46,19 @@ Ensure the dev environment is setup and then run:
 pytest
 ```
 
+## Publishing
+
+```
+python -m build
+twine upload dist/*
+```
+
+You can publish to the testing PyPI to make sure everything works how you want it:
+
+```
+twine upload -r testpypi dist/*
+```
+
 ## References
 
 -   A lot of the configuration/basic setup is based on [mCoding's](https://mcoding.io) great [video tutorial](https://www.youtube.com/watch?v=DhUpxWjOhME).
